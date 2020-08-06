@@ -30,12 +30,7 @@ const/let에서는 undefined를 받으면 TDZ(Temporal Dead Zone)에 의해서 �
 
 객체지향 언어의 Private Method와 같은 역할로 주로 쓰인다.
 
-    const closure = name => {
-        const favorite = "pasta";
-        return () => console.log(`My name is ${name}, favorite is ${favorite}`);
-    };
-    const print = closure("Larry Jung");
-    print(); // console >> My name is Larry Jung, favorite is pasta
+![image](https://user-images.githubusercontent.com/46839654/89493194-94642200-d7ee-11ea-8235-2e023d689ebe.png)
 
 # Data type
 
